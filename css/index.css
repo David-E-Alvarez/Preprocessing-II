@@ -168,6 +168,29 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.home .header-section {
+  margin-top: 30px;
+}
+.home .header-section .navigation {
+  border: red 2px solid;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.home .header-section .navigation .links {
+  width: 40%;
+  border: 2px solid black;
+}
+.home .header-section .links {
+  display: flex;
+  justify-content: space-between;
+}
+.home .header-section .links a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
