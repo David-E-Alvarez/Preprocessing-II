@@ -126,6 +126,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.btn {
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
 * {
   box-sizing: border-box;
 }
@@ -247,6 +258,9 @@ img {
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
+}
+.home .content-pick div {
+  border: 2px red solid;
 }
 .home .content-pick .destination {
   width: 30%;
