@@ -1,16 +1,14 @@
 // Mixins in here
-.custom-btn(@bg-color:teal, @width:200px, @font-color:white){
+.custom-btn(@bgColor: teal, @width: 200px, @fontColor: white){
     padding: 10px 40px;
     border-radius: 10px;
-    background-color:@bg-color;
-    color: @font-color;
+    background-color:@bgColor;
+    color: @fontColor;
     cursor: pointer;
     font-size: 20px;
     width: @width;
 }
 
-
-
 .btn{
-    .custom-btn(@bg-color ,@width,@font-color);
+    .custom-btn();
 }
