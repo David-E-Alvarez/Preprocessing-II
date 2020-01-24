@@ -5,8 +5,16 @@
             display: flex;
             justify-content: space-between;
             margin-bottom: 30px;
+            @media @mobile {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+              }
             .links{//start of links
                 width: 40%;
+                @media @mobile {
+                    width: 100%;
+                  }
             }//end of links
         }//end of nav
         .links{//start of links within header section
